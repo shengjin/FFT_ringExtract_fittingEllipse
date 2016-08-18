@@ -24,7 +24,7 @@ gaus_pa = 2.383443450928E+01    # PA of maj axis of Guass measure East from Nort
 
 gaus_ma_arcsec = gaus_ma*3600
 gaus_mi_arcsec = gaus_mi*3600
-gaus_pa_ctclk  = 180.0-gaus_pa  # PA in imConv
+gaus_pa_ctclk  = gaus_pa  # PA in imConv
 
 fwhm = [gaus_ma_arcsec, gaus_mi_arcsec]
 
